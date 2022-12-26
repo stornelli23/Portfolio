@@ -1,0 +1,15 @@
+.downloadCV {
+  border: 2px solid black;
+  box-shadow: black 0 4px 0;
+  border-radius: 20px;
+  width: 200px;
+  margin: auto;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #f9f5eb;
+  color: black;
+}

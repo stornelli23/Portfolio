@@ -4,12 +4,22 @@ export const translations = {
     mainSubtitle: `Hi, I'm Santiago!`,
     mainTitle: 'Full Stack Web Developer',
     mainPhrase: 'I can materialize your ideas',
-    contactMe: 'Contact me'
+    contactMe: 'Contact me',
+      homeNavbar: 'HOME',
+      aboutMeNavbar: 'ABOUT ME',
+      projectsNavbar: 'PROJECTS',
+      educationNavbar: 'EDUCATION'
   },
     español: {
         mainSubtitle: 'Hola, soy Santiago!',
         mainTitle: 'Desarrollador Web Full Stack',
         mainPhrase: 'Puedo materializar tus ideas',
-        contactMe: 'Contactame'
+        contactMe: 'Contactame',
+       
+          homeNavbar: 'INCIO',
+          aboutMeNavbar: 'SOBRE MÍ',
+          projectsNavbar: 'PROYECTOS',
+          educationNavbar: 'EDUCACIÓN'
+        
       }
   };
