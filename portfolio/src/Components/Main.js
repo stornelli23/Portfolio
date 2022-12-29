@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from './NavBar/NavBar';
 import Home from './Home/Home';
 import AboutMe from "./AboutMe/AboutMe";
+import Project from "./Projects/Project";
 
 function Main() {
     return (
@@ -10,6 +11,9 @@ function Main() {
         <NavBar/>
         <Home/>
         <AboutMe/>
+        <Project/>
+        <Project/>
+
       </>
     );
   }
