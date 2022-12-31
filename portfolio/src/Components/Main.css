@@ -1,10 +1,49 @@
+/* General */
+  .sectionsTitle{
+    font-size: 28px;
+    font-weight: 700;
+    color: #ff7e00;
+    margin: 100px 0;
 
-.Tabs {
+  }
+  
+/*About style*/
+
+  .aboutMe {
+    font-size: 14px;
+  }
+  
+  .softList{
+  list-style: none;
+  }
+  .skillsList{
+    list-style: none;
+  }
+  
+  .downloadCV {
+    border: 2px solid black;
+    box-shadow: black 0 4px 0;
+    border-radius: 20px;
+    width: 200px;
+    margin: 20px;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #f9f5eb;
+    color: black;
+  }
+
+
+/* Tabs style */
+
+  .Tabs {
     width: 100%;
     height: auto;
     min-height: 400px;
     background: #f9f5eb;
-    margin: 3.5rem auto 1.5rem;
     padding: 0;
     border-radius: 2rem;
   }
@@ -20,7 +59,7 @@
   
   .react-tabs__tab {
     width: 100%;
-    min-height: 90px;
+    min-height: 50px;
     margin: 0;
     list-style: none;
     text-align: center;

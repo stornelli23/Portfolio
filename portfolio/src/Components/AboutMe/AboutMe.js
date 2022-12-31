@@ -1,12 +1,15 @@
 import Container from "react-bootstrap/esm/Container";
-import "./AboutMe.css";
+import "../Main.css";
 import { Col, Row } from "react-bootstrap";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 export default function AboutMe() {
   return (
-    <Container>
-      <Row className="d-flex justify-content-center">
+    <Container className="d-flex flex-column justify-content-between ">
+      <Row className="d-flex justify-content-center ">
+        <Col className="col-12 d-flex justify-content-center">
+        <h2 className="sectionsTitle">ABOUT ME</h2>
+        </Col>
         <Col>
           <Tabs className="Tabs">
             <TabList>
@@ -35,7 +38,7 @@ export default function AboutMe() {
                   />
                 </Col>
                 <Col>
-                  <p className="downloadCV">Download my CV</p>
+                  <p className="downloadCV p-1">Download my CV</p>
                 </Col>
               </Row>
             </TabPanel>
