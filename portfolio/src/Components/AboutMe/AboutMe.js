@@ -32,13 +32,13 @@ export default function AboutMe() {
                 <Col className="col-12">
                   <img
                     className="imgPerfil"
-                    style={{ width: "200px", borderRadius:"20px" }}
+                    style={{ width: "200px", borderRadius:"10px" }}
                     src="/img/SantiagoStornelli-Perfil.png"
                     alt="Foto de perfil"
                   />
                 </Col>
-                <Col>
-                  <p className="downloadCV p-1">Download my CV</p>
+                <Col className="col-12 d-flex justify-content-center align-items-center">
+                  <button className="downloadCV p-1">Download my CV</button>
                 </Col>
               </Row>
             </TabPanel>

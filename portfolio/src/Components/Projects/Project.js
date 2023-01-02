@@ -8,7 +8,7 @@ export default function Project(props) {
     <Container>
       <Row className="mb-5">
         <Col className="col-12 d-flex justify-content-center align-items-center my-4">
-          <h4 className="m-0 fw-lighter">{props.title}</h4>
+          <h4 className="m-0 fw-500 fst-italic">{props.title}</h4>
         </Col>
         <Col>
           <Tabs className="Tabs">
@@ -18,8 +18,11 @@ export default function Project(props) {
             </TabList>
             <TabPanel>
               <Row>
-                <Col>
+                <Col className="col-12">
                   <p>{props.resume}</p>
+                </Col>
+                <Col>
+                  <p>{props.gitHub}</p>
                 </Col>
               </Row>
             </TabPanel>
