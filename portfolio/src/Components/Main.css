@@ -7,6 +7,14 @@
 
   }
   
+/*Project style*/
+
+.imgProject{
+  width: 100%;
+  max-height: 200px;
+}
+
+
 /*About style*/
 
   .aboutMe {
@@ -45,7 +53,7 @@
     min-height: 400px;
     background: #f9f5eb;
     padding: 0;
-    border-radius: 2rem;
+    border-radius: 1rem;
   }
   
   .react-tabs__tab-list {
@@ -78,8 +86,8 @@
   .react-tabs__tab:hover {
     background: #eae3d2;
     margin: 0;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
   }
   
   .react-tabs__tab-panel {

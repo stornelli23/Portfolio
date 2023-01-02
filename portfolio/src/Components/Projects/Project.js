@@ -3,12 +3,15 @@ import { Col, Row } from "react-bootstrap";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "../Main.css";
 
-export default function Project( props ) {
+export default function Project(props) {
   return (
     <Container>
-      <Row>
+      <Row className="mb-5">
+        <Col className="col-12 d-flex justify-content-center align-items-center my-4">
+          <h4 className="m-0 fw-lighter">{props.title}</h4>
+        </Col>
         <Col>
-          <Tabs>
+          <Tabs className="Tabs">
             <TabList>
               <Tab>Resume</Tab>
               <Tab>More information</Tab>
@@ -29,9 +32,9 @@ export default function Project( props ) {
             </TabPanel>
             <Col className="col-12">
               <img
+                className="imgProject"
                 src={props.image}
                 alt="Project preview"
-                style={{ width: "200px" }}
               />
             </Col>
           </Tabs>

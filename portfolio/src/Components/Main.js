@@ -19,14 +19,16 @@ function Main() {
         </Col>
       </Row>
       <Project
+        title="Sneakers"
         resume="This is my resume"
         info="Information"
-        image="/img/festejo.png"
+        image="/img/Sneakers-Preview.png"
       />
       <Project
+      title="Sneakers Dashboard"
         resume="This is my 2nd resume"
         info="Information 2"
-        image="/img/manito.png"
+        image="/img/Sneakers-Dashboard-Preview.png"
       />
       <Education />
     </>
