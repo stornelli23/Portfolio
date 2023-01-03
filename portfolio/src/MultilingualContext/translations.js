@@ -16,7 +16,7 @@ export const translations = {
         mainPhrase: 'Puedo materializar tus ideas',
         contactMe: 'Contactame',
        
-          homeNavbar: 'INCIO',
+          homeNavbar: 'INICIO',
           aboutMeNavbar: 'SOBRE MÍ',
           projectsNavbar: 'PROYECTOS',
           educationNavbar: 'EDUCACIÓN'

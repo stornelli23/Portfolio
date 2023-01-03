@@ -13,7 +13,7 @@ function Main() {
       <NavBar />
       <Home />
       <AboutMe />
-      <Row className="m-0 p-0">
+      <Row id="projects" className="m-0 p-0">
         <Col className="col-12 d-flex justify-content-center p-0 m-0">
           <h2 className="sectionsTitle">PROJECTS</h2>
         </Col>

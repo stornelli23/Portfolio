@@ -8,7 +8,7 @@ export default function Project(props) {
     <Container>
       <Row className="mb-5">
         <Col className="col-12 d-flex justify-content-center align-items-center my-4">
-          <h4 className="m-0 fw-500 fst-italic">{props.title}</h4>
+          <h4 className="m-0 fst-italic">{props.title}</h4>
         </Col>
         <Col>
           <Tabs className="Tabs">
@@ -16,30 +16,29 @@ export default function Project(props) {
               <Tab>Resume</Tab>
               <Tab>More information</Tab>
             </TabList>
-            <TabPanel>
-              <Row>
-                <Col className="col-12">
-                  <p>{props.resume}</p>
-                </Col>
-                <Col>
-                  <p>{props.gitHub}</p>
-                </Col>
-              </Row>
-            </TabPanel>
-            <TabPanel>
-              <Row>
-                <Col>
-                  <p>{props.info}</p>
-                </Col>
-              </Row>
-            </TabPanel>
-            <Col className="col-12">
-              <img
-                className="imgProject"
-                src={props.image}
-                alt="Project preview"
-              />
-            </Col>
+            <Row  className="my-5">
+              <Col>
+                <TabPanel>
+                  <Col className="col-12">
+                    <p>{props.resume}</p>
+                  </Col>
+                </TabPanel>
+                <TabPanel>
+                  <Col>
+                    <p>{props.info}</p>
+                  </Col>
+                </TabPanel>
+              </Col>
+              <Col className="col-12 col-md-6 my-auto d-flex flex-column justify-content-center align-items-center">
+                <img
+                  className="imgProject mb-3"
+                  src={props.image}
+
+                  alt="Project preview"
+                />
+                <p>{props.gitHub}</p>
+              </Col>
+            </Row>
           </Tabs>
         </Col>
       </Row>

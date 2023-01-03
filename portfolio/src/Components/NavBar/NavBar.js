@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-    <Container>
+    <Container className="sticky-top">
       <nav className="navigation">
         <button
           className="hamburger"
@@ -57,24 +57,45 @@ export default function Navbar() {
         >
           <ul>
             <li>
-              <a href="/">
+              <a
+                href="#top"
+                onClick={() => {
+                  setIsNavExpanded(!isNavExpanded);
+                }}
+              >
+                
                 <MultilingualContent contentID="homeNavbar" />
               </a>
             </li>
             <li>
-              <a href="/">
+              <a
+                href="#aboutme"
+                onClick={() => {
+                  setIsNavExpanded(!isNavExpanded);
+                }}
+              >
                 <MultilingualContent contentID="aboutMeNavbar" />
               </a>
             </li>
             <li>
-              <a href="/">
-                {" "}
+              <a
+                href="#projects"
+                onClick={() => {
+                  setIsNavExpanded(!isNavExpanded);
+                }}
+              >
+                
                 <MultilingualContent contentID="projectsNavbar" />
               </a>
             </li>
             <li>
-              <a href="/">
-                {" "}
+              <a
+                href="#education"
+                onClick={() => {
+                  setIsNavExpanded(!isNavExpanded);
+                }}
+              >
+                
                 <MultilingualContent contentID="educationNavbar" />
               </a>
             </li>

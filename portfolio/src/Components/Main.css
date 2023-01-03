@@ -1,5 +1,9 @@
 /* General */
+h6{
+  color: #ff7e00;
+  font-weight: 700;
 
+}
 
   .sectionsTitle{
     font-size: 28px;
@@ -12,8 +16,8 @@
 /*Project style*/
 
 .imgProject{
-  width: 100%;
-  max-height: 200px;
+  max-width: 90%;
+  max-height: 250px;
 }
 
 
@@ -23,18 +27,16 @@
     font-size: 14px;
   }
   
-  .softList{
-  list-style: none;
-  }
+
   .skillsList{
-    list-style: none;
+    list-style-type: none;
   }
   
   .downloadCV {
     border: 2px solid black;
     box-shadow: black 0 4px 0;
     border-radius: 20px;
-    width: 200px;
+    width: 180px;
     margin: 20px;
     display: flex;
     justify-content: center;
@@ -42,6 +44,12 @@
     font-size: 14px;
     font-weight: 500;
     background-color: #f9f5eb;
+    color: black;
+    text-decoration: none;
+    
+  }
+
+  .downloadCV:hover{
     color: black;
   }
 
@@ -94,12 +102,19 @@
   
   .react-tabs__tab-panel {
     display: none;
+    justify-content: center;
   }
   
   .react-tabs__tab-panel--selected {
     display: block;
     text-align: center;
     color: black;
-    margin: 30px;
+    margin: 100px 30px;
   }
   
+  @media screen and (min-width: 992px){
+    .imgProject{
+      max-height: 350px;
+    }
+
+  } 
