@@ -14,7 +14,7 @@ export const translations = {
     aboutmeSection: "ABOUT ME",
     firstTabAboutme: "Who I am?",
     secondTabAboutme: "Skills",
-    descriptionAboutme: "I am 23 years old, I am at the beginning of my professional career and I am currently looking for a new job in which I can apply all my knowledge and enhance it. I continue to train myself day by day to always give my best version. My perseverance stands out to me , responsibility, adaptability and above all the passion for development.",
+    descriptionAboutme: "I am 23 years old, I am at the beginning of my professional career and I am currently looking for a new job in which I can apply all my knowledge and enhance it. I continue to train myself day by day to always give my best version. I stand out for my perseverance, responsibility, adaptability and above all my passion for development.",
     checkMyCV: "Check my CV",
     othersTools: "Others tools",
     softSkills: "Soft skills",
@@ -65,7 +65,7 @@ export const translations = {
         aboutmeSection: "SOBRE MÍ",
         firstTabAboutme: "¿Quien soy?",
         secondTabAboutme: "Habilidades",
-        descriptionAboutme: "Tengo 23 años, me encuentro en los inicios de mi carrera profesional y actualmente estoy en busqueda de un nuevo empleo en el cual pueda aplicar todos mis conocimientos y potenciarlos. Sigo formandome dia a dia para dar siempre mi mejor version. Me destaca mi constancia, responsabilidad, adaptabilidad y sobre todo la pasión por el desarrollo.",
+        descriptionAboutme: "Tengo 23 años, me encuentro en los inicios de mi carrera profesional y actualmente estoy en busqueda de un nuevo empleo en el cual pueda aplicar todos mis conocimientos y potenciarlos. Sigo formandome dia a dia para dar siempre mi mejor versión. Me destaca mi constancia, responsabilidad, adaptabilidad y sobre todo la pasión por el desarrollo.",
         checkMyCV: "Mirá mi CV",
         othersTools: "Otras herramientas",
         softSkills: "Habilidades blandas",
@@ -90,7 +90,7 @@ export const translations = {
 
             secondProjectTitle: "'Sneakers' Dashboard",
             secondProjectResume: "Junto con mis compañeros de desarrollo realizamos un dashboard de la pagina web Sneakers, en el cual podemos ver datos especificos sobre nuestro E-Commerce, tales como el ultimo usuario registrado, el ultimo producto agregado, el total de marcas, de usuarios y de productos.",
-            secondProjectInfo: "Este proyecto fue desarrollado mediante el uso de React.js y Bootstrap como framework, y atraves del consumo de APIs previamente creadas con el objetivo de mostrar mas sofisticadamente los datos mas relevantes de nuestro sitio.",
+            secondProjectInfo: "Este proyecto fue desarrollado mediante el uso de React.js y Bootstrap como framework, y a través del consumo de APIs previamente creadas con el objetivo de mostrar mas sofisticadamente los datos mas relevantes de nuestro sitio.",
             secondGitHub: "github.com/nguetti/dashboardSneakers",
 
         educationSection: "ESTUDIOS",
