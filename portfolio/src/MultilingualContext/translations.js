@@ -19,6 +19,14 @@ export const translations = {
     othersTools: "Others tools",
     softSkills: "Soft skills",
 
+    empathy:"- Empathy",
+    patience:"- Patience",
+    teamwork:"- Team work",
+    responsibility: "- Responsability",
+    adaptability: "- Adaptability",
+    communication: "- Communication",
+    compromise:"- Compromise",
+
       projectsSection: "PROJECTS",
       firstProjectsTab: "Resume",
       secondProjectsTab: "More information",
@@ -61,6 +69,15 @@ export const translations = {
         checkMyCV: "Mirá mi CV",
         othersTools: "Otras herramientas",
         softSkills: "Habilidades blandas",
+
+        empathy:"- Empatía",
+        patience:"- Paciencia",
+        teamwork:"- Trabajo en equipo",
+        responsibility: "- Responsabilidad",
+        adaptability: "- Adaptabilidad",
+        communication: "- Comunicación",
+        compromise:"- Compromiso",
+      
 
           projectsSection: "PROYECTOS",        
           firstProjectsTab: "Resumen",

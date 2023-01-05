@@ -100,13 +100,13 @@ export default function AboutMe() {
                   <MultiLingualContent contentID="softSkills" />
                   </h6>
                   <ul className="skillsList p-0">
-                    <li>- Empathy</li>
-                    <li>- Patience</li>
-                    <li>- Teamwork</li>
-                    <li>- Responsibility</li>
-                    <li>- Adaptability</li>
-                    <li>- Communication</li>
-                    <li>- Compromise</li>
+                  <li><MultiLingualContent contentID="empathy" /></li>
+                  <li><MultiLingualContent contentID="patience" /></li>
+                  <li><MultiLingualContent contentID="teamwork" /></li>
+                  <li><MultiLingualContent contentID="responsability" /></li>
+                  <li><MultiLingualContent contentID="adaptability" /></li>
+                  <li><MultiLingualContent contentID="communication" /></li>
+                  <li><MultiLingualContent contentID="compromise" /></li>
                   </ul>
                   <img
                     src="/img/support.png"
