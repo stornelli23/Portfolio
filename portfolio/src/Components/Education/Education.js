@@ -2,19 +2,21 @@ import Container from "react-bootstrap/esm/Container";
 import { Col, Row } from "react-bootstrap";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "../Main.css";
+import MultiLingualContent from "../multilingualContent";
+
 
 export default function Education() {
   return (
     <Container>
       <Row id="education">
         <Col className="col-12 d-flex justify-content-center">
-          <h2 className="sectionsTitle">EDUCATION</h2>
+          <h2 className="sectionsTitle"><MultiLingualContent contentID="educationSection"/></h2>
         </Col>
         <Col>
           <Tabs>
             <TabList>
-              <Tab>Completed</Tab>
-              <Tab>In progress</Tab>
+              <Tab><MultiLingualContent contentID="firstTabEducation"/></Tab>
+              <Tab><MultiLingualContent contentID="secondTabEducation"/></Tab>
             </TabList>
             <Row>
               <Col>
@@ -23,10 +25,10 @@ export default function Education() {
                 <Row>
                   <Col className="col-12 col-lg-6">
                     <p className="fw-light">
-                      - Full Stack Web Developer course at "Digital House".
+                    <MultiLingualContent contentID="firstCompleted"/>
                     </p>
                     <p className="fst-italic fw-light">
-                      March 2022 - September 2022
+                    <MultiLingualContent contentID="firstDateCompleted"/>
                     </p>
                   </Col>
                   <Col className="col-12 col-lg-6">
@@ -42,9 +44,11 @@ export default function Education() {
                 <Row>
                   <Col className="col-12 col-lg-6">
                     <p className="fw-light">
-                      - Programming Technician at "Instituto TECLAB".
+                    <MultiLingualContent contentID="firstInProgress"/>
                     </p>
-                    <p className="fst-italic fw-light">June 2021 - Present</p>
+                    <p className="fst-italic fw-light">
+                    <MultiLingualContent contentID="firstDateInProgress"/>
+                    </p>
                   </Col>
                   <Col className="col-12 col-lg-6">
                     <img

@@ -2,6 +2,8 @@ import Container from "react-bootstrap/esm/Container";
 import { Col, Row } from "react-bootstrap";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "../Main.css";
+import MultiLingualContent from "../multilingualContent";
+
 
 export default function Project(props) {
   return (
@@ -13,8 +15,8 @@ export default function Project(props) {
         <Col>
           <Tabs className="Tabs">
             <TabList>
-              <Tab>Resume</Tab>
-              <Tab>More information</Tab>
+              <Tab><MultiLingualContent contentID="firstProjectsTab"/></Tab>
+              <Tab><MultiLingualContent contentID="secondProjectsTab"/></Tab>
             </TabList>
             <Row  className="my-5">
               <Col>
