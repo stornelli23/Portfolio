@@ -65,7 +65,7 @@ export const translations = {
         aboutmeSection: "SOBRE MÍ",
         firstTabAboutme: "¿Quien soy?",
         secondTabAboutme: "Habilidades",
-        descriptionAboutme: "Tengo 23 años, me encuentro en los inicios de mi carrera profesional y actualmente estoy en busqueda de un nuevo empleo en el cual pueda aplicar todos mis conocimientos y potenciarlos. Sigo formandome dia a dia para dar siempre mi mejor versión. Me destaca mi constancia, responsabilidad, adaptabilidad y sobre todo la pasión por el desarrollo.",
+        descriptionAboutme: "Tengo 23 años, me encuentro en los inicios de mi carrera profesional y actualmente estoy en búsqueda de un nuevo empleo en el cual pueda aplicar todos mis conocimientos y potenciarlos. Sigo formandome día a día para dar siempre mi mejor versión. Me destaca mi constancia, responsabilidad, adaptabilidad y sobre todo la pasión por el desarrollo.",
         checkMyCV: "Mirá mi CV",
         othersTools: "Otras herramientas",
         softSkills: "Habilidades blandas",
